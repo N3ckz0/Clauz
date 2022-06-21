@@ -1,0 +1,21 @@
+.bg-comites{
+	width: 100%;
+    height: 300px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(227, 68%, 51%, 0.35), hsla(227, 68%, 51%, 0.35)), url(../images/b1.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(227, 68%, 51%, 0.35), hsla(227, 68%, 51%, 0.35)), url(../images/b1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.bg-comites h1{
+	color: #fff;
+}
+.info{
+	width: 50%;
+}
+.eventos{
+	width: 50%;
+}
