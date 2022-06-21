@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.contenedor{
+	font-family: Arial;
+}
+.encabezado{
+	width: 90%;
+	margin: auto;
+	padding: 20px 20px;
+	text-align: justify;
+}
+.boletin{
+	width: 90%;
+	margin: auto;
+	background: #5499C7;
+}
+.contBoletin{
+	width: 50%;
+	margin: auto;
+	background: white;
+	border-radius: 20px;
+}
+.banner{
+	width: 100%;
+	border-radius: 20px;
+}
+.contBoletin>h1,.contBoletin>h2{
+	text-align: center;
+}
+/*Comite de Provedures*/
+.comProv{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+}
+.comProv>h3,.comProv>p{
+	text-align: justify;
+}
+.comProv>h4{
+	text-align: right;
+}
+.cont-img{
+	width: 90%;
+	margin: auto;
+}
+.cont-img>img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tabla{
+	width: 50%;
+}
+article{
+	padding-bottom: 20px;
+	column-count: 2;
+	text-align: justify;
+}
+.footer{
+	width: 50%;
+	margin: auto;
+	border-radius: 20px;
+}
+.imagenes-footer{
+	width: 50%;
+	margin: auto;
+}
+.footer .imagenes-footer>img{
+	width: 25px;
+	height: 25px;
+	background: #D0D3D4;
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 20px;
+	border: 1px solid #154360;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+

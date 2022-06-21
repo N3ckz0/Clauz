@@ -1,0 +1,13 @@
+.contenedor > div{
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid #154360;
+    border-radius: 20px;
+    margin: 10px;
+}
+.imgBoletines{
+    width: 100%;
+}
+.contenedor > div > a{
+    color: #27AE60;
+}
