@@ -18,7 +18,7 @@
     text-align: justify;
 }
 .contBienvenida{
-    background:  #8EC549;
+    background: rgba(142, 197, 73, .8);
     padding: 75px 75px;
     color: #fff;
 }
@@ -44,13 +44,12 @@
     width: 100%;
     height: 400px;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(227, 68%, 51%, 0.459), hsla(227, 68%, 51%, 0.664)), url(../images/fondo.jpg);
+    background: -webkit-linear-gradient(to right, hsla(227, 68%, 51%, 0.5), hsla(227, 68%, 51%, 0.664)), url(../images/fondo.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(227, 68%, 51%, 0.459), hsla(227, 68%, 51%, 0.664)), url(../images/fondo.jpg);
+    background: linear-gradient(to right, hsla(227, 68%, 51%, 0.5), hsla(227, 68%, 51%, 0.664)), url(../images/fondo.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
 /* Header */
 header {
@@ -76,8 +75,9 @@ header .textos-header{
     text-align: center;
 }
 .textos-header h1{
-    font-size: 50px;
+    font-size: 100px;
     color: #fff;
+    font-family: M54;
 }
 .textos-header h2{
     font-size: 30px;

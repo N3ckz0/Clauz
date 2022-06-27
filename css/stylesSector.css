@@ -18,3 +18,13 @@
     border-radius: 10px;
     margin: auto;
 }
+.contenedor > div{
+    width: 350px;
+    height: 350px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.contenedor > div > img{
+	width: 100%;
+}
