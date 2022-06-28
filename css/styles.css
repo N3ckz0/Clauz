@@ -156,3 +156,14 @@ header .textos-header{
     }
 }
 /*Footer*/
+
+.ir-arriba{
+    padding: 20px 20px;
+    background: #1E8449;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
